@@ -1,20 +1,20 @@
 <template>
   <page-header></page-header>
   <main-page></main-page>
-<!--  <page-footer></page-footer>-->
+  <page-footer></page-footer>
 </template>
 
 <script>
 
 
 import PageHeader from "@/components/Header";
-// import PageFooter from "@/components/Footer";
+import PageFooter from "@/components/Footer";
 import MainPage from "@/pages/Main";
 export default {
   name: 'App',
   components: {
     MainPage,
-    // PageFooter,
+    PageFooter,
     PageHeader
 
   }

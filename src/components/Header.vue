@@ -1,7 +1,7 @@
 <template>
   <header>
+    <img class="logo" src="../assets/logo.png" alt="logo">
       <div class="nav">
-        <img class="logo" src="../assets/logo.png" alt="logo">
         <router-link to="/">Home</router-link>
         <router-link to="/services">Services</router-link>
         <router-link to="/case">Case</router-link>
@@ -19,12 +19,15 @@ export default {
 </script>
 <style scoped>
 header{
+  font-size: 30px;
   padding: 10px;
   margin: 0;
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
 }
 header a{
   color: #60E1CB;
+  float: right;
   text-decoration: none;
 }
 header button{
@@ -42,10 +45,12 @@ header button{
   display: flex;
   justify-content: space-around;
   font-weight: bold;
-}
+  gap: 100px;
+  margin-right: 8%;}
 .logo{
   width: 200px;
   height: 25px;
+  margin-left: 20%;
 }
 a:hover,
 a.router-link-active,
