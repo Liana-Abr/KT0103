@@ -1,24 +1,3 @@
 # kt103
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+https://www.figma.com/file/vg5ajV66siLCu4DC6CgqGj/daCode---SaaS-Web-agency-website-(Community)?node-id=82%3A106&t=JhKKsotxJyezgPax-1
